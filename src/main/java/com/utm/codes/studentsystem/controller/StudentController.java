@@ -22,7 +22,7 @@ public class StudentController {
         System.out.println("Name= "+student.getName());
 
         studentService.saveStudent(student);
-        return "New student is registered successfully";
+        return "New student is registered added";
 
     }
     @GetMapping("/getAll")
